@@ -15,7 +15,7 @@ export default function Home({ data }) {
         <div>
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
-          <p>UX Designer & web developer based in Edinburgh</p>
+          <p>UX Designer & web developer based in London</p>
           <Link className={btn} to="/projects">My Portfolio Projects</Link>
         </div>
       <Img fluid={data.file.childImageSharp.fluid} />
